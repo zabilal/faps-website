@@ -92,8 +92,16 @@ foreach ($result as $row) {
 			<div class="col-md-12">
 				<h1>FIRST AGE PRIVATE SCHOOLS - FAPS</h1>
 				<p>
+					Bring out the Best in your Child with FIRST AGE Education Programs, with a curriculum which stimulates and fosters intellectual,
+					social, physical and emotional skills development while our teaching methods improve yo ur child's learning through questionin,
+					observing, investigating and doing.
+				</p>
+				<p>
 					FAPS provides a positive and enabling learning environment that maintains respect and high expectations for every child. We are poised to providing solutions to the common dilemma of Parents who desire a healthy balance of academic excellence and moral training.
 					started with the Nursery and has grown over the period.
+				</p>
+				<p>
+					Enroll your Child and watch as he/she develops higher order thinking skills in a child-centered and nurturing environment.
 				</p>
 				<p>
 					It has been over 30 years of unbeatable, qualitative, captivating academic excellence and geometric progression of Yandutse Nursery/Primary School is quite incredible.
