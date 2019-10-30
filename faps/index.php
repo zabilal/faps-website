@@ -41,7 +41,7 @@ foreach ($result as $row) {
 		<ul class="bxslider">
 				
 			<?php
-			$statement = $pdo->prepare("SELECT * FROM tbl_slider WHERE status=? ORDER BY id DESC");
+			$statement = $pdo->prepare("SELECT * FROM tbl_slider WHERE status=? ORDER BY id ASC");
 			$statement->execute(array('Active'));
 			$result = $statement->fetchAll(PDO::FETCH_ASSOC);							
 			foreach ($result as $row) 
@@ -91,9 +91,13 @@ foreach ($result as $row) {
 		<div class="row">
 			<div class="col-md-12">
 				<h1>FIRST AGE PRIVATE SCHOOLS - FAPS</h1>
+				<!-- <p>
+				First Age Private Schools was founded in the year 2005 September 12 precisely. Though the school formally opened to the public for registration of pupils on Monday 22nd August, 2005 with 5 members of staff and 4 pupils. The school is now on its permanent site at Plot M7 along Army Settlements Scheme Extension III, Kubwa behind Mobil Filling Station by Duste Alhaji and 50 metres from MOPOL 50.
+FAPS is a co-educational institution established to provide pre-elementary, elementary and secondary education for pupils/students.
+				</p> -->
 				<p>
 					Bring out the Best in your Child with FIRST AGE Education Programs, with a curriculum which stimulates and fosters intellectual,
-					social, physical and emotional skills development while our teaching methods improve yo ur child's learning through questionin,
+					social, physical and emotional skills development while our teaching methods improve yo ur child's learning through questioning,
 					observing, investigating and doing.
 				</p>
 				<p>
@@ -104,7 +108,7 @@ foreach ($result as $row) {
 					Enroll your Child and watch as he/she develops higher order thinking skills in a child-centered and nurturing environment.
 				</p>
 				<p>
-					It has been over 30 years of unbeatable, qualitative, captivating academic excellence and geometric progression of Yandutse Nursery/Primary School is quite incredible.
+					It has been over 15 years of unbeatable, qualitative, captivating academic excellence and geometric progression of FIRST AGE PRIVATE SCHOOLS is quite incredible.
 				 	It has been a journey filled with opportunities of the vision and the mission of the school to attain her goals. It’s not our own making but God Almighty.
 				</p>
 			</div>

@@ -30,7 +30,7 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Consultine - Admin Panel</title>
+	<title>ZAK Tech CMS - Admin Panel</title>
 
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -58,7 +58,7 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 		<header class="main-header">
 
 			<a href="index.php" class="logo">
-				<span class="logo-lg">Consultine</span>
+				<span class="logo-lg">ZAK Tech CMS</span>
 			</a>
 
 			<nav class="navbar navbar-static-top">
